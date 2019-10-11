@@ -7,10 +7,27 @@ body {
   padding-top: 56px;
 }
 
+
+/*change the font style of the body*/
 body {
 	font-family: 'Architects Daughter';
 }
 
+/*change the colour of the navigation bar*/
 nav {
 background-color: #7B7B7B;
+}
+
+/*change the carousel sixe and colour*/
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #7B7B7B;
+}
+
+
+/*change the colour of the footer*/
+footer{
+	background-color: #7B7B7B
 }
