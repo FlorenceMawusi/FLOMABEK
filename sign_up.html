@@ -16,7 +16,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/shop-homepage.css" rel="stylesheet">
-
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">s
 
   <!--Link the project.js file-->
@@ -42,13 +42,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="login.html">Login</a>
           </li>
         </ul>
       </div>
@@ -57,22 +51,25 @@
 
   
   <!--Login Form-->
-  <div>
-    <p class=" h1 lr_label">Sign Up</p>
-  </div>
 
-  <form>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  <div class="col-md-6 ml-4 mt-4 mb-4">
+    <div>
+      <p class=" h1 lr_label">Sign Up</p>
     </div>
-    <div class="form-group">
-      <label for="exampleInputPassword1">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input required="true" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input required="true" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+
+    </form>
+  </div>
 
 
   <!-- Footer -->
@@ -108,7 +105,7 @@
                           <div class="col-md-6">
                               <div class="md-form mb-0">
                                   <label for="email" class="">Your email</label>
-                                  <input type="text" id="email" name="email" class="form-control">
+                                  <input required="true" type="text" id="email" name="email" class="form-control">
                               </div>
                           </div>
                           <!--Grid column-->
@@ -121,7 +118,7 @@
                           <div class="col-md-12">
                               <div class="md-form mb-0">
                                   <label for="subject" class="">Subject</label>
-                                  <input type="text" id="subject" name="subject" class="form-control">
+                                  <input required="true" type="text" id="subject" name="subject" class="form-control">
                                   
                               </div>
                           </div>
@@ -151,6 +148,14 @@
                   <div class="status"></div>
               </div>
               <!--Grid column-->
+
+              <p style="color: #FFFFFF">Check us out on our social media pages:</p>
+
+              <div>
+                 <a href="https://www.instagram.com/flomabek/" class="fa fa-instagram"></a>
+                 <a href="https://twitter.com/flomabek1" class="fa fa-twitter"></a>
+                 <a href="https://webtech740744964.wordpress.com/" class="fa fa-wordpress"></a>
+              </div>
 
               <!--Grid column-->
               <div class="col-md-3 text-center">
