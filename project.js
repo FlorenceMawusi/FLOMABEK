@@ -4,7 +4,7 @@ var emailregex = /^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6})*$/g;
 
 
 function checkEmail(){
-	var userinput = document.getElementById(/*Enter element's ID here*/).value;
+	var userinput = document.getElementById("exampleInputEmail1").value;
 
 	var testemail = emailregex.test(userinput);
 
@@ -43,7 +43,7 @@ function checkPassword(){
 var phonenumregex = /^[0][1-9]\d{9}$|^[1-9]\d{8}$/g;
 
 function checkNumber(){
-	var userinput = document.getElementById(/*Enter element's ID here*/).value;
+	var userinput = document.getElementById("form-control").value;
 
 	var testphonenum = phonenumregex.test(userinput);
 
@@ -54,3 +54,4 @@ function checkNumber(){
 	}
 
 }
+
